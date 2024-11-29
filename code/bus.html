@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bus </title>
+    <link rel="icon" href="../images/bus logo.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <!-- Header-start -->
+        <div class="header">
+            <div class="main-header">
+                <div class="logo">
+                    <a href=""><img src="../images/bus logo.svg" style="height: 48px;"></a>
+                </div>
+                <span>|</span>
+                <div class="bus-train" style="position: relative;">
+                    <a href="bus.html">
+                        <div class="bus-logo" style="background-color: #d84e55;">
+                            <div class="first-logo">
+                                <img src="../images/bus logo.svg" width="84px" height="20px"
+                                    style="filter: brightness(0) invert(1);">
+                            </div>
+                            <div class="logo-title"><b>Bus Tickets</b></div>
+                        </div>
+                    </a>
+                    <a href="train.html">
+                        <div class="train-logo">
+                            <div class="rail">
+                                <img src="../images/rail logo.svg">
+                            </div>
+                            <div class="logo-title"><b style="color: black; font-weight: 500;">Train Tickets</b></div>
+                        </div>
+                        <sup>₹80 off</sup>
+                </div>
+                </a>
+                <div class="contact">
+                    <a href="">
+                        <div class="logo-outer" style="display:flex; width: 74px; height: 32px;">
+                            <div class="help">
+                                <i class="fa-solid fa-headset" style="color: #48494c;"></i>
+                            </div>
+                            <p>Help</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="logo-outer" style="display: flex; width: 117px; height: 32px;" id="account">
+                            <div class="help">
+                                <i class="fa-regular fa-circle-user" style="color: #48494c;"></i>
+                            </div>
+                            <p style="display: flex;">Account <select name="" id=""></select></p>
+                            <div class="account-list">
+                                <ul style="list-style: none;">
+                                    <li>Cancel Ticket</li>
+                                    <li>Change Travel Date</li>
+                                    <li>Show My Ticket</li>
+                                    <li>Email/SMS</li>
+                                    <div style="border-top: 1px solid black;"></div>
+                                    <li>Login/Sign Up</li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Header-end -->
+        <!-- home img-start -->
+        <!-- banner start -->
+        <div class="banner">
+            <div class="banner-img" style="margin-top: 15px;">
+                <img src="../images/HomeBanner.png" width="100%">
+            </div>
+            <div class="banner-text">
+                <h1 style="color: white;">India's No. 1 Online Bus Ticket Booking Site</h1>
+            </div>
+            <div class="booking">
+                <div class="inner-booking">
+                    <div class="booking-one">
+                        <div class="one-icon">
+                            <i class="fa-solid fa-bus"></i>
+                        </div>
+                        <div class="one-text">
+                            <p>From</p>
+                        </div>
+                        <input type="text" required class="input-two">
+                        <!-- postion -->
+                        <div class="postion">
+                            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                        </div>
+                        <!-- postion -->
+
+                    </div>
+                    <div class="booking-two">
+                        <div class="two-icon">
+                            <i class="fa-solid fa-bus"></i>
+                        </div>
+                        <div class="two-text">
+                            <p>To</p>
+                        </div>
+                        <input type="text" class="input-two">
+                    </div>
+                    <a href="">
+                        <div class="booking-three">
+                            <div class="three-icon">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="three-text">
+                                <p>
+                                    Date
+                                <div class="mega-menu">
+                                    <!-- <h1 align="center">January 2024 </h1> -->
+                                    <table border="2" height="200" width="200" align="center">
+                                        <tr align="center">
+                                            <th width="55" bgcolor="green">Sun</th>
+                                            <th width="55" bgcolor="green">Mon</th>
+                                            <th width="55" bgcolor="green">Tue</th>
+                                            <th width="55" bgcolor="green">Wed</th>
+                                            <th width="55" bgcolor="green">Thu</th>
+                                            <th width="55" bgcolor="green">Fri</th>
+                                            <th width="55" bgcolor="green">Sat</th>
+                                        </tr>
+                                        <tr align="center">
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>10</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                            <td>20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                            <td>27</td>
+                                            <td>28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>31</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="booking-four">
+                            <button class="button">SEARCH BUSES</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- banner end -->
+        <!-- home-img-end -->
+        <!-- offer-start -->
+        <div class="offer">
+            <div class="upper">
+                <h2>TRENDING OFFERS</h2>
+                <div class="view"><b>View All</b></div>
+            </div>
+            <div class="lower">
+                <div class="box"
+                    style="background-image:  linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);">
+                    <div class="box-img"><img src="../images/box1.png" width="100%"></div>
+                    <div class="box-text">
+                        <div class="bus">BUS</div>
+                        <div class="save" style="color: white;">Save up to Rs 250 on bus tickets</div>
+                        <div class="valid">Valid till 01 Aug</div>
+                        <div class="last">
+                            <div class="first">FIRST</div>
+                            <img src="../images/copy.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="box"
+                    style="background-image: linear-gradient(71.04deg, rgb(39, 57, 101) -6.92%, rgb(80, 210, 149) 109.43%);">
+                    <div class="box-img"><img src="../images/discount.png" width="100%"></div>
+                    <div class="box-text">
+                        <div class="bus">BUS</div>
+                        <div class="save" style="color: white;">Save up to Rs 300 on AP, TS routes</div>
+                        <div class="valid">Valid till 01 Aug</div>
+                        <div class="last">
+                            <div class="first" style="width: 75px;">SUPERHIT</div>
+                            <img src="../images/copy.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="box"
+                    style="background-image:linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);">
+                    <div class="box-img"><img src="../images/icici.png" width="100%"></div>
+                    <div class="box-text" id="box-text-last">
+                        <div class="bus">BUS</div>
+                        <div class="save" style="color: white;">Save upto Rs 500 with ICICI Netbanking</div>
+                        <div class="valid">Valid till 26 Jul</div>
+                        <div class="last">
+                            <div class="first" style="width: 70px;">ICICI500</div>
+                            <img src="../images/copy.svg">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- offer-end -->
+        <!-- govt-buses-start -->
+        <div class="govt-bus">
+            <div class="upper">
+                <div style="font-weight: 400; font-size: 40px;">GOVERNMENT BUSES</div>
+                <div class="view"><b>View All</b></div>
+            </div>
+            <div class="bus-time">
+                <div class="bus-time-1">
+                    <a href="">
+                        <div class="bus-time-upper">
+                            <div class="b-t-upper-1">
+                                <div class="b-t-u-img"><img src="../images/govt-bus1.png" width="100%"></div>
+                                <div class="rsrtc">
+                                    <div class="rsrtc-upper">
+                                        <div class="rsrtc-name">RSRTC</div>
+                                        <div class="star">
+                                            <div class="star-icon"><i class="fa-solid fa-star"
+                                                    style="filter: brightness(20); font-size: 14px;"></i></div>
+                                            <span>3.71</span>
+                                        </div>
+                                    </div>
+                                    <div class="rsrtc-lower">राजस्थान स्टेट रोड ट्रांसपोर्ट कॉर्पोरशन</div>
+                                </div>
+                            </div>
+                            <div class="b-t-upper-2">6000 services including Deluxe, <br> Ordinary and more</div>
+                            <div class="b-t-upper-3">
+                                <img src="../images/bus logo.svg" width="25px" height="15px">
+                                Official booking partner of RSRTC
+                            </div>
+                        </div>
+
+                        <div class="bus-time-footer">Use code FIRST to save upto ₹250 (only for first time users)</div>
+                </div>
+                </a>
+                <!-- bus-time-2 -->
+                <a href="">
+                    <div class="bus-time-1">
+                        <div class="bus-time-upper">
+                            <div class="b-t-upper-1">
+                                <div class="b-t-u-img"><img src="../images/govt-bus2.png" width="100%"></div>
+                                <div class="rsrtc">
+                                    <div class="rsrtc-upper">
+                                        <div class="rsrtc-name">UPSRTC</div>
+                                        <div class="star">
+                                            <div class="star-icon"><i class="fa-solid fa-star"
+                                                    style="filter: brightness(20); font-size: 14px;"></i></div>
+                                            <span>3.94</span>
+                                        </div>
+                                    </div>
+                                    <div class="rsrtc-lower">उत्तर प्रदेश राज्य सड़क परिवहन निगम</div>
+                                </div>
+                            </div>
+                            <div class="b-t-upper-2">1738 services including <br>Janrath,Shatabdi and more</div>
+                            <div class="b-t-upper-3">
+                                <img src="../images/bus logo.svg" width="25px" height="15px">
+                                Official booking partner of UPSRTC
+                            </div>
+                        </div>
+
+                        <div class="bus-time-footer">24*7 customer service (Call or chat)</div>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+        <!-- govt-buses-end -->
+        <!-- railpop-start -->
+        <div class="main-pop">
+            <div class="pop-left">
+                <div class="pop-left1">
+                    <h2>NOW, <b>GET MORE THAN <br>JUST BUS</b> TICKETS WITH REDBUS!</h2>
+                </div>
+                <div class="pop-left2">
+                    <img src="../images/rail logo.svg" width="50px" height="28px">
+                    <div class="pop-left2text"> <b style="color: rgb(216 78 85);">Train Tickets</b></div>
+                </div>
+                <div class="pop-left3">
+                    <div>
+                        Book IRCTC Train Tickets on redRail simple & superfast booking process with no service fee + no
+                        payment gateway charge.
+                    </div>
+                    <div class="pop-left3a">
+                        <img src="../images/a1.png" width="32px" height="32px">
+                        <div class="a1 text"><b>Authorised IRCTC Partner</b></div>
+                    </div>
+                    <div class="pop-left3a">
+                        <img src="../images/a2.svg" width="32px" height="32px">
+                        <div class="a1 text"><b>Instant refunds on UPI payments</b></div>
+                    </div>
+                    <div class="pop-left3a">
+                        <img src="../images/a3.svg" width="32px" height="32px">
+                        <div class="a1 text"><b>Hassle- free customer support</b></div>
+                    </div>
+                </div>
+                <div class="pop-left4">
+                    <a href=""><b style="color: rgb(255, 255, 255);">Book Train Tickets</b></a>
+                    <a href="" style="padding-top: 3px;"><i class="fa-solid fa-arrow-right"></i></a>
+
+                </div>
+            </div>
+            <div class="pop-right">
+                <img src="../images/railpop back.svg" width="100%" height="100%">
+                <div class="pop-right2">
+                    <img src="../images/railPop.png" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+        <!-- railpop-end -->
+        <!-- enjoy-section-start -->
+        <div class="main-enjoy">
+            <div class="main-enjoy-img">
+                <div class="heading">
+                    <h2 style="height: 48px; color: white;">ENJOY THE APP!</h2>
+                </div>
+                <div class="main-lower">
+                    <div class="main-lower-1">
+                        <div class="top">
+                            <div class="access">
+                                <img src="../images/tick.svg" width="22px" height="22px">
+                                <div><b style="font-size: 19px; font-weight: 600;">Quick access</b></div>
+                            </div>
+                            <div class="access">
+                                <img src="../images/tick.svg" width="22px" height="22px">
+                                <div><b style="font-size: 19px; font-weight: 600;">Superior live tracking</b></div>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="bottom-left">
+                                <div class="b-l-1">
+                                    <b style="font-size: 20px;">4.5</b>
+                                    <i class="fa-solid fa-star"
+                                        style="font-size: 15px; position: relative; bottom: 3px;"></i>
+                                </div>
+                                <div class="b-l-2" style="font-size: 15px;">
+                                    50M+ <br>downloads
+                                </div>
+                                <div class="b-l-3"><b style="font-size: 15px; font-weight: 600;">Play Store</b>
+                                </div>
+                            </div>
+                            <div class="bottom-left" style="border-left: 2px solid gray; padding-left: 70px;">
+                                <div class="b-l-1">
+                                    <b style="font-size: 20px;">4.6</b>
+                                    <i class="fa-solid fa-star"
+                                        style="font-size: 15px; position: relative; bottom: 3px;"></i>
+                                </div>
+                                <div class="b-l-2" style="font-size: 15px;">
+                                    50M+ <br>downloads
+                                </div>
+                                <div class="b-l-3"><b style="font-size: 15px; font-weight: 600;">App Store</b></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-lower-2">
+                        <div class="scan"><b style="color: white;">Scan to <br>download</b></div>
+                        <img src="../images/qrCode.svg">
+                    </div>
+                    <div class="main-lower-3">
+                        <div class="scan"><b style="color: white;">Download the <br> App on</b></div>
+                        <a href=""><img src="../images/playStore.svg"></a>
+                        <a href=""><img src="../images/appStore.svg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- enjoy-section-end -->
+        <!-- primo-section-start -->
+        <div class="primo">
+            <div class="primo-img">
+                <img src="../images/primoHomeBannerComp.png" width="100%">
+            </div>
+            <div class="primo-text">
+                <div class="primo-text-1">
+                    <i class="fa-solid fa-stopwatch-20"></i>
+                    <div class="promo-text-left">
+                        <h4 style="color: white;">On Time</h4>
+                        <div style="color: white; font-size: 20px;">Punctual arrivals on <br> 95% trips</div>
+                    </div>
+                </div>
+                <div class="primo-text-2">
+                    <i class="fa-solid fa-hands-praying"></i>
+                    <div class="promo-text-left">
+                        <h4 style="color: white;">Friendly Staff</h4>
+                        <div style="color: white; font-size: 20px;">Always ready to help</div>
+                    </div>
+                </div>
+                <div class="primo-text-3">
+                    <i class="fa-regular fa-star"></i>
+                    <div class="promo-text-left">
+                        <h4 style="color: white;">Top Rated</h4>
+                        <div style="color: white; font-size: 20px;">Buses with 4+ star <br>rating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- primo-section-end -->
+        <!-- global-section-start -->
+        <div class="global">
+            <h2>Global Presence</h2>
+            <div class="flag-outer">
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/Colombia.svg" width="100px" height="100px">
+                        <div class="country">Colombia</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/India.svg" width="100px" height="100px">
+                        <div class="country">India</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/Indonesia.svg" width="100px" height="100px">
+                        <div class="country">Indonesia</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/Malaysia.svg" width="100px" height="100px">
+                        <div class="country">Malaysia</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/Peru.svg" width="100px" height="100px">
+                        <div class="country">Peru</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/Singapore.svg" width="100px" height="100px">
+                        <div class="country">Singapore</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/Vietnam.svg" width="100px" height="100px">
+                        <div class="country">Vietnam</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="flag1">
+                        <img src="../images/Cambodia.svg" width="100px" height="100px">
+                        <div class="country">Cambodia</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- global-section-end -->
+        <!-- book-bus-ticket-online-start -->
+        <div class="tickets-online">
+            <h1 style="color: black;">
+                BOOK BUS TICKETS ONLINE
+            </h1>
+            <p>
+                redBus is India's largest brand for online bus ticket booking and offers an easy-to-use online bus and
+                <a href="" style="color: blue;">train ticket</a> booking; with over 36 million satisfied customers,
+                3500+ bus operators to choose from, and
+                plenty of offers on bus ticket booking, redBus makes road journeys super convenient for travellers. A
+                leading platform for booking bus tickets, redBus has been the leader in online bus booking over the past
+                17 years across thousands of cities and lakhs of routes in India.
+            </p>
+            <p>
+                Booking a bus ticket online on the redBus app or website is very simple. You can download the redBus app
+                or visit redbus.in and enter your source, destination & travel date to check the top-rated bus services
+                available. You can then compare bus prices, user ratings & amenities, select your preferred seat,
+                boarding & dropping points and pay using multiple payment options like UPI, debit or credit card, net
+                banking and more. With redBus, get assured safe & secure payment methods and guaranteed travel with the
+                best s... <a href="" style="color: blue; font-weight: 500;">Read more</a>
+            </p>
+        </div>
+        <!-- book-bus-ticket-online-start -->
+        <!-- red-deals-start -->
+        <div class="tickets-online">
+            <h1 style="color: black; margin-bottom: 25px;">
+
+                Bus Booking redDeals on redBus
+            </h1>
+            <p>
+                Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and
+                affordability. Hurry, grab the best bus booking deals before they're gone!
+            </p>
+        </div>
+        <!-- red-deals-end -->
+        <!-- book-now-start -->
+        <div class="book-now" style="display: flex; align-items: center;">
+            <img src="../images/bus logo.svg" width="56px" height="56px">
+            <div class="text">
+                <p style="margin-bottom: 16px; font-size: 1.5rem; font-weight: 600;">
+                    Unlock Unbeatable Exclusive redDeals!<span
+                        style="color: #d84e55;font-size: 1.75rem; position:relative; right: 70px;">20%OFF</span>
+                </p>
+                <div class="deals">
+                    <div class="deals1">
+                        <div class="num" style="color: #d84e55;font-size: 1rem;">3840</div>
+                        <div class="deals-text">Deals </div>
+                    </div>
+                    <div class="deals2">
+                        <div class="num" style="color: #d84e55;font-size: 1rem;">1606</div>
+                        <div class="deals-text">Bus Operators </div>
+                    </div>
+                    <div class="deals3">
+                        <div class="num" style="color: #d84e55;font-size: 1rem;">399350 </div>
+                        <div class="deals-text">Routes</div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="unlock">Book Now</button>
+        </div>
+        <!-- book-now-end -->
+        <!-- fa-start -->
+        <div class="fa">
+            <h2>FAQs related to Bus Tickets Booking</h2>
+            <div class="fa-ul">
+                <ul>
+                    <a href=""
+                        style="color: #D84E55; border-bottom: 3px solid #D84E55; padding-bottom: 15px;">General</a>
+                    <a href="">Ticket-related</a>
+                    <a href="">Payment</a>
+                    <a href="">Cancellation & Refund</a>
+                    <a href="">Insurance</a>
+                </ul>
+            </div>
+        </div>
+        <!-- fa-end -->
+        <!-- plus-section-start -->
+        <div class="plus-outer">
+            <div class="plus1">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">Can I track the location of my booked
+                        bus online?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="plus2">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">What are the advantages of purchasing
+                        a bus ticket with redBus?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="plus3">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">Why book bus tickets online on
+                        redBus?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="plus4">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">Do I need to create an account on the
+                        redBus site to book my bus ticket?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="plus5">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">Does bus booking online cost me
+                        more?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="plus6">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">How can I get the discounts on the
+                        bus booking?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="plus7">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">What's New in Bus Booking on
+                        redBus?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="plus8">
+                <div class="plus-text"><b style="font-size: 15px; color: #1d1d1d;">Can I book a Government bus ticket on
+                        redBus?</b></div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+        <!-- plus-section-end -->
+        <!-- arrow-start -->
+        <div class="arrow">
+            <img src="../images/scrollArrow.svg" width="16px" height="18px">
+        </div>
+        <!-- arrow-end -->
+        <!-- footer-start -->
+        <div class="footer">
+            <div class="footer-top">
+                <div class="popular">
+                    <h3>Popular Bus Routes</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="popular">
+                    <h3>Popular Cities</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="popular">
+                    <h3>Popular Bus Operators</h3>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="footer-dealbut">
+                <div class="f-b-1">
+                    <img src="../images/bus logo.svg" width="100px" height="65px">
+                    <p>
+                        redBus is the world's largest online bus ticket booking service trusted by over 25 million happy
+                        customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile
+                        apps for all major routes.
+                    </p>
+                </div>
+                <div class="f-b-2">
+                    <strong>About redBus</strong>
+                    <ul style="list-style: none; ">
+                        <a href="">
+                            <li>About us</li>
+                        </a>
+                        <a href="">
+                            <li>Investor Relations</li>
+                        </a>
+                        <a href="">
+                            <li>Contact us</li>
+                        </a>
+                        <a href="">
+                            <li>Mobile version</li>
+                        </a>
+                        <a href="">
+                            <li>redBus on mobile</li>
+                        </a>
+                        <a href="">
+                            <li>Sitemap</li>
+                        </a>
+                        <a href="">
+                            <li>Offers</li>
+                        </a>
+                        <a href="">
+                            <li>Careers</li>
+                        </a>
+                        <a href="">
+                            <li>Values</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="f-b-2" style="width: 190px;">
+                    <strong style="margin-left: -135px;">Info</strong>
+                    <ul style="list-style: none; ">
+                        <a href="">
+                            <li>T&C</li>
+                        </a>
+                        <a href="">
+                            <li>Privacy policy</li>
+                        </a>
+                        <a href="">
+                            <li>FAQ</li>
+                        </a>
+                        <a href="">
+                            <li>Blog</li>
+                        </a>
+                        <a href="">
+                            <li>Bus operator registration</li>
+                        </a>
+                        <a href="">
+                            <li>Agent registration</li>
+                        </a>
+                        <a href="">
+                            <li>Insurance partner</li>
+                        </a>
+                        <a href="">
+                            <li>User agreement</li>
+                        </a>
+                        <a href="">
+                            <li>Primo Bus</li>
+                        </a>
+                        <a href="">
+                            <li>Bus Timetable</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="f-b-2" style="width: 150px;">
+                    <strong style="margin-left: 30px;">Global Sites</strong>
+                    <ul style="list-style: none; ">
+                        <a href="">
+                            <li>India</li>
+                        </a>
+                        <a href="">
+                            <li>Singapore</li>
+                        </a>
+                        <a href="">
+                            <li>Malaysia</li>
+                        </a>
+                        <a href="">
+                            <li>Indonesia</li>
+                        </a>
+                        <a href="">
+                            <li>Peru</li>
+                        </a>
+                        <a href="">
+                            <li>Colombia</li>
+                        </a>
+                        <a href="">
+                            <li>Cambodia</li>
+                        </a>
+                        <a href="">
+                            <li>Vietnam</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="f-b-2" style="width: 150px;">
+                    <strong style="margin-left: -15px;">Our Partners</strong>
+                    <ul style="list-style: none; ">
+                        <a href="">
+                            <li>Goibibo Bus</li>
+                        </a>
+                        <a href="">
+                            <li>Goibibo Hotels</li>
+                        </a>
+                        <a href="">
+                            <li>Makemytrip Hotels</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-last">
+                <p style="font-size: 14px; width: 350px;">
+                    Ⓒ 2024 Redbus India Pvt Ltd. All rights reserved
+                </p>
+                <div class="footer-logo">
+                    <img src="../images/social_facebook_new.svg" width="24px" height="24px">
+                    <img src="../images/social_linkedin_new.svg" width="24px" height="24px">
+                    <img src="../images/social_twitter_new.svg" width="24px" height="24px">
+                    <img src="../images/social_instagram_new.svg" width="24px" height="24px">
+                </div>
+            </div>
+        </div>
+        <!-- footer-end -->
+    </section>
+</body>
+</html>
